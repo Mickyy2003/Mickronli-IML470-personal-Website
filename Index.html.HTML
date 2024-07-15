@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mickronli Medol's Website</title>
+    <style>
+        img:hover {
+        animation: shake 0.5s;
+         animation-iteration-count: infinite;
+        }
+        @keyframes shake {
+         0% { transform: translate(1px, 1px) rotate(0deg); }
+         10% { transform: translate(-1px, -2px) rotate(-1deg); }
+         20% { transform: translate(-3px, 0px) rotate(1deg); }
+         30% { transform: translate(3px, 2px) rotate(0deg); }
+         40% { transform: translate(1px, -1px) rotate(1deg); }
+         50% { transform: translate(-1px, 2px) rotate(-1deg); }
+         60% { transform: translate(-3px, 1px) rotate(0deg); }
+         70% { transform: translate(3px, 1px) rotate(-1deg); }
+         80% { transform: translate(-1px, -1px) rotate(1deg); }
+         90% { transform: translate(1px, 2px) rotate(0deg); }
+         100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9fedff;
+            overflow-y: scroll;
+            position: relative;
+            z-index: 1;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: url('IMG_8224.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(10px);
+        }
+        .wrapper {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin: 20px auto;
+        }
+        header {
+            background: url('IMG_8224.jpeg') no-repeat center center fixed;  /* Semi-transparent background */
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            font-size: 3.5em;
+            margin-top: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent background */
+            position: sticky;
+            top: 0;
+            z-index: 3;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        nav a i {
+            margin-right: 8px;
+        }
+        .container {
+            padding: 2.5em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 2em 0;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent background */
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+        .content {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .scroll-container {
+            background-color: #333;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 10px;
+        }
+        .scroll-container img {
+            padding: 10px;
+            {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <audio src="BGM 🧁Yummy Flavor _ Cute _ Sweet _ Happy Background Music.mp3" autoplay loop></audio>
+    
+<div class="wrapper">
+    <header>
+        <h1>Welcome to My Website!</h1>
+    </header>
+
+    <nav>
+        <a href="#link1"><i class="fas fa-user"></i> About Me</a>
+        <a href="#link3"><i class="fas fa-blog"></i> Blog</a>
+        <a href="#link4"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+
+    <div class="container">
+        <div id="link1" class="content">
+            <h2>About Me</h2>
+            <p>Hello everyone! Thank you for visiting my website. Here, I'm hoping to give you a glimpse into my life, interests, aspirations, and more. So, let's embark on this journey together and explore the facets of who I am.</p>
+            <div class="image-container">
+                <img src="Mickronli Image.jpg" alt="Mickronli Image">
+            </div>
+            <p>Name: Mickronli Medol</p>
+            <p>Greetings! My name is Mickronli Medol, but you can simply call me Mick. My name isn't just a label; it embodies my identity and essence. It reflects my cultural roots and personal history, serving as a unique marker of my individuality. Growing up, my name has always been a conversation starter, prompting curiosity and leading to deeper conversations about my heritage and background. It's a name that I wear with pride, as it connects me to my ancestors and my community.</p>
+            <p>From a young age, I have always been curious and eager to learn about the world around me. This curiosity has driven me to pursue various interests and hobbies, each of which has contributed to my personal growth and development. My journey has been filled with countless experiences, both challenging and rewarding, that have shaped me into the person I am today. I believe that life is a continuous learning process, and I strive to embrace every opportunity for growth and self-improvement.</p>
+        </div>
+
+        <div class="scroll-container">
+            <img src="photo_2024-06-11_13-17-22.jpg" alt="Cinque Terre" width="550" height="350">
+            <img src="mic.jpg" alt="Forest" width="400" height="200">
+            <img src="mick.jpg.jpg" alt="Northern Lights" width="300" height="100">
+        
+        </div>
+        <div class="wrapper">
+            <header>
+                <h2>Welcome To My Blog!</h2>
+            </header>
+          </div>
+        <div id="link3" class="content">
+            <h2>Age: 21 Years</h2>
+            <p>Hover over the image:</p>
+            <img src="baby2.jpg" alt="baby2.jpg" width="300" height="300">
+            <img src="baby.jpg" alt="baby.jpg" width="300" height="300">
+            <img src="baby3.jpg" alt="baby3.jpg" width="300" height="300">
+            <p>As of December 1, 2003, I have completed 21 revolutions around the sun. Each passing year has enriched me with experiences, taught me valuable lessons, and shaped me into the person I am today. I embrace the opportunities for growth and learning that each new year brings. Turning 21 is a significant milestone in my life, marking the transition from adolescence to adulthood. It's a time of reflection, where I look back on the years that have passed and the journey that lies ahead. Each year, I set new goals and aspirations, constantly striving to better myself and make a positive impact on the world around me.</p>
+            
+            <h2>Residence: Kampung Tondig, Kota Marudu, Sabah</h2>
+            <div class="image-container">
+                <img src="KinabaluParkPoringHotSpring.jpg" alt="KinabaluParkPoringHotSpring.jpg">
+                <img src="2019-11-26.jpg" alt="2019-11-26.jpg">
+            </div>
+            <p>Welcome to Kampung Tondig, nestled in the heart of Kota Marudu, Sabah. Surrounded by lush greenery and serene landscapes, this quaint village is more than just a place to reside; it's a sanctuary for the soul. Growing up here has instilled in me a deep appreciation for nature's beauty and the simplicity of rural life. The tranquil environment of Kampung Tondig has provided me with a peaceful retreat from the hustle and bustle of city life. Here, I have formed lasting connections with my neighbors and experienced the warmth and hospitality of a close-knit community. The scenic landscapes and natural wonders of my village have inspired a deep-seated love for the environment and a commitment to preserving it for future generations.</p>
+            <iframe width="620" height="445" src="https://www.youtube.com/embed/OfDpjiZSkK0?si=9dKemgJkEWPeJB56">
+            </iframe>
+
+            <h2>Number of Siblings: 7</h2>
+            <p>I hail from a family of eight siblings, with me being the sixth in line. Together, we form a tight-knit unit bonded by love, laughter, and shared experiences. My siblings are not just my family; they're my closest friends and pillars of support in life's journey. Growing up in a large family has taught me the values of teamwork, empathy, and resilience. Each of my siblings brings their own unique personality and strengths to our family dynamic, creating a rich tapestry of experiences and memories. Our bond is unbreakable, and I cherish the moments we spend together, whether it's celebrating milestones or simply enjoying each other's company.</p>
+            <div class="row">
+                <div class="column">
+                  <img src="mom.jpg" alt="Snow" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="f.jpeg" alt="Forest" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="ff.jpeg" alt="Mountains" style="width:100%">
+                </div>
+
+            <h2>Favorite Food</h2>
+            <div class="image-container">
+                <img src="ngp.jpg" alt="ngp.jpg">
+            </div>
+            <p>When it comes to culinary delights, few dishes rival the satisfaction of Pattaya fried rice. Its tantalizing blend of flavors and textures never fails to tantalize my taste buds. The combination of fragrant rice, savory fillings, and a perfectly cooked egg creates a symphony of flavors that I find irresistible. And for refreshment, nothing beats a glass of freshly squeezed carrot juice, bursting with vitamins and goodness. Of course, staying hydrated with plenty of water is a priority for overall well-being. I believe that food is not just about sustenance; it's an experience that brings people together and creates lasting memories. Exploring different cuisines and flavors is one of my passions, and I enjoy experimenting with new recipes and ingredients in the kitchen.</p>
+            <iframe width="620" height="445" src="https://www.youtube.com/embed/6RnmwAwcR5c?si=srx4WA6iaOPJRJko">
+            </iframe>
+
+            <h2>Religion: Christian</h2>
+            <div class="image-container">
+                <img src="sda.jpeg" alt="sda.jpeg">
+                <img src="church.jpeg" alt="church.jpeg">
+            </div>
+            <p>My faith in Christianity serves as a guiding light in my life, imparting values of compassion, forgiveness, and hope. It provides me with a sense of purpose and direction, anchoring me during times of uncertainty and adversity. My faith has been a source of strength and comfort throughout my life, helping me navigate challenges and stay grounded in my principles. Through my involvement in my local church community, I have met wonderful individuals who share my beliefs and values. Together, we support each other in our spiritual journeys and work towards making a positive impact in our community. My faith teaches me to approach life with an open heart and a willingness to serve others, fostering a sense of unity and compassion in all my interactions.</p>
+            <video width="640" height="480" controls>
+                <source src="IMG_2736.mp4" type="video/mp4">
+                <source src="IMG_2736.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <p>This is me with my sister at church.</p>
+              
+            <h2>Education</h2>
+            <p>My educational journey began at SJKC Khoi Ming, where I laid the foundation for my academic pursuits. Transitioning to SK Tandek for primary education and subsequently to SMK Tandek for secondary education, I've been fortunate to receive a well-rounded education that has broadened my horizons and shaped my intellectual growth. Each stage of my education has presented new challenges and opportunities for learning. At SJKC Khoi Ming, I developed a strong foundation in critical thinking and problem-solving skills. My time at SK Tandek and SMK Tandek further honed my abilities and exposed me to a diverse range of subjects and extracurricular activities. I am grateful for the dedicated teachers and mentors who have guided me along the way, inspiring me to strive for excellence and pursue my passions with determination.</p>
+            <div class="scroll-container">
+                <img src="sjkc.jpeg" alt="sjkc.jpeg" width="350" height="150">
+                <img src="Bola Keranjang 5.jpg" alt="Bola Keranjang 5.jpg" width="450" height="250">
+                <img src="sk.jpeg" alt="sk.jpeg" width="300" height="100">
+                <img src="sk1.jpg" alt="sk1.jpg" width="550" height="350">
+                <img src="smk.jpeg" alt="smk.jpeg" width="350" height="150">
+                <img src="smk2.jpeg" alt="smk2.jpeg" width="550" height="350">
+            
+            </div>
+        
+            <h2>Hobbies</h2>
+            <div class="image-container">
+                <img src="photogprahy.jpg" alt="photogprahy.jpg">
+                <img src="drawing.jpg" alt="drawing.jpg">
+            </div>
+            <p>In the tapestry of my life, hobbies are the colorful threads that add vibrancy and joy. Whether it's the soulful melodies of singing, the expressive strokes of painting, or the captivating snapshots of photography, each hobby allows me to channel my creativity and passion into tangible expressions of artistry. Singing has always been a source of joy and comfort for me, allowing me to express my emotions and connect with others through music. Painting provides a therapeutic outlet for my creativity, enabling me to capture the beauty of the world around me on canvas. Photography, on the other hand, allows me to freeze moments in time, capturing memories and experiences that I can cherish forever. These hobbies are more than just pastimes; they are integral to my identity and personal fulfillment.</p>
+            <video width="640" height="480" controls>
+                <source src="video_2024-07-15_13-37-07.mp4" type="video/mp4">
+                <source src="video_2024-07-15_13-37-07.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <p>This is me try to make a lyric by my own self and try to sing it. hihii.</p>
+              
+            <h2>My Traits</h2>
+            <p>Curious, sociable, and resilient—these are just a few descriptors that encapsulate my personality. I possess an insatiable thirst for knowledge, a warm and affable demeanor that fosters meaningful connections, and a steadfast resolve that navigates me through life's ups and downs. My curiosity drives me to explore new ideas and seek out new experiences, constantly expanding my understanding of the world. I thrive in social settings, where I can engage in stimulating conversations and build relationships with people from diverse backgrounds. My resilience has been tested through various challenges, but each obstacle has only strengthened my resolve and determination to overcome adversity. I believe that every experience, whether positive or negative, contributes to personal growth and shapes the person I am today.</p>
+            
+            <h2>Aspirations: Educator</h2>
+            <p>My aspiration to become an educator in the field of Information Management stems from a deep-seated belief in the transformative power of education. I envision myself as a catalyst for change, empowering future generations with the knowledge, skills, and mindset to navigate the complexities of the digital age. Education has the potential to unlock opportunities and create pathways for success, and I am passionate about making a positive impact in this field. As an educator, I aim to foster a love for learning and inspire my students to reach their full potential. I believe in creating an inclusive and supportive learning environment that encourages creativity, critical thinking, and collaboration. Through my dedication and commitment to education, I hope to contribute to the development of future leaders and innovators who will shape the world for the better.</p>
+        </div>
+        <div class="wrapper">
+            <header>
+                <h3>How To Contact Me</h3>
+            </header>
+    
+            <div id="link4" class="content">
+                <p>If you'd like to connect with me or have any inquiries, feel free to reach out through the following channels. I'm always eager to engage in meaningful conversations and forge new connections. If you'd like to get in touch with me, feel free to do so through the following platforms:</p>
+                <p>Facebook: <a href="https://www.facebook.com/xiiemick.maicky?mibextid=kFxxJD" target="_blank">@Mickronli Medol</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/mick_maicky?igsh=MWR0Ym9idjByOWlmeQ%3D%3D&utm_source=qr" target="_blank">@mick_maicky</a></p>
+                <p>TikTok: <a href=https://www.tiktok.com/@mickmaicky?_t target="_blank">@mickmaicky</a></p>
+                <p>Email: <a href="mailto:mickronlimike@gmail.com">mickronlimike@gmail.com</a></p>
+                <p>Phone: Please contact me via email to obtain my phone number.</p>
+                <p>Thank you for accompanying me on this journey of self-discovery. I hope you find inspiration and insight within these pages. Until we meet again, take care and stay curious!</p>
+            </div>
+    <footer>
+        <p>&copy; 2024 Mickronli Medol</p>
+    </footer>
+</div>
+
+</body>
+</html>
